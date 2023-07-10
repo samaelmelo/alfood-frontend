@@ -1,5 +1,3 @@
-![Integrando seu projeto React com APIs](thumbnail.png)
-
 # Alfood
 
 O Alfood é um site que lista restaurantes e pratos do menu.
@@ -9,14 +7,14 @@ O Alfood é um site que lista restaurantes e pratos do menu.
 
 ## 🔨 Funcionalidades do projeto
 
-O Alfood começa com uma listagem estática de seu conteúdo e é esse o problema que queremos resolver.
-No decorrer do curso, vamos implementar toda a camada de comunicação com a API.
+O Alfood é possível fazer o CRUD de restaurantes e de pratos para cada restaurante.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-Se liga nessa lista de tudo que usaremos nesse treinamento:
+Se liga nessa lista de tudo que foi usado no na aplicação:
 
 - `React`
+- `React Router Dom`
 - `React Hooks`
 - `TypeScript`
 - `axios`
@@ -33,4 +31,20 @@ Busque na plataforma da Alura o curso **Integrando seu projeto React com APIs** 
 
 # Rodar o backend
 
-docker-compose up
+Entre no <a href='https://github.com/samaelmelo/alfood-backend' target='_blank'> backend do alfood</a>
+
+## 🛠️ Abrir e rodar o projeto
+
+Clone o projeto
+
+Para abrir e rodar o projeto, execute npm i para instalar as dependências do projeto.
+
+É preciso ter o docker instalado em sua máquina
+
+Rode o comando:
+
+- `docker-compose build`
+
+- `docker-compose up`
+
+Agora sua API está rodando no endereço http://localhost:8000

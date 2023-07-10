@@ -2,11 +2,10 @@
 
 # Alfood
 
-O Alfood é um site que lista restaurantes e pratos do menu. 
+O Alfood é um site que lista restaurantes e pratos do menu.
 É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
 
 <img src="screencapture.png" alt="Imagem do Alfood" width="50%">
-
 
 ## 🔨 Funcionalidades do projeto
 
@@ -31,3 +30,7 @@ Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no se
 ## 📚 Mais informações do curso
 
 Busque na plataforma da Alura o curso **Integrando seu projeto React com APIs** publicado na Escola Frontend.
+
+# Rodar o backend
+
+docker-compose up
